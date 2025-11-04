@@ -23,16 +23,16 @@ install:  ## install library
 .PHONY: lint-py lint-docs fix-py fix-docs lint lints fix format
 
 lint-py:  ## lint python with ruff
-	python -m ruff check csp_chatbot
-	python -m ruff format --check csp_chatbot
+	python -m ruff check csp_benchmark
+	python -m ruff format --check csp_benchmark
 
 lint-docs:  ## lint docs with mdformat and codespell
 	python -m mdformat --check README.md 
 	python -m codespell_lib README.md 
 
 fix-py:  ## autoformat python code with ruff
-	python -m ruff check --fix csp_chatbot
-	python -m ruff format csp_chatbot
+	python -m ruff check --fix csp_benchmark
+	python -m ruff format csp_benchmark
 
 fix-docs:  ## autoformat docs with mdformat and codespell
 	python -m mdformat README.md 
@@ -62,10 +62,10 @@ check: checks
 .PHONY: test coverage tests
 
 test:  ## run python tests
-	python -m pytest -v csp_chatbot/tests
+	python -m pytest -v csp_benchmark/tests
 
 coverage:  ## run tests and collect test coverage
-	python -m pytest -v csp_chatbot/tests --cov=csp_chatbot --cov-report term-missing --cov-report xml
+	python -m pytest -v csp_benchmark/tests --cov=csp_benchmark --cov-report term-missing --cov-report xml
 
 # Alias
 tests: test

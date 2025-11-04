@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend="hatchling.build"
 
 [project]
-name = "csp-chatbot"
-authors = [{name = "the csp-chatbot authors", email = "dev@1kbgz.com"}]
-description = "Alias for csp-bot"
+name = "csp-benchmark"
+authors = [{name = "the csp-benchmark authors", email = "dev@1kbgz.com"}]
+description = "Alias for csp-benchmarks"
 readme = "README.md"
 license = { text = "Apache-2.0" }
 version = "0.1.0"
@@ -50,8 +50,8 @@ develop = [
 [project.scripts]
 
 [project.urls]
-Repository = "https://github.com/tkp-aliases/csp-chatbot"
-Homepage = "https://github.com/tkp-aliases/csp-chatbot"
+Repository = "https://github.com/tkp-aliases/csp-benchmark"
+Homepage = "https://github.com/tkp-aliases/csp-benchmark"
 
 [tool.bumpversion]
 current_version = "0.1.0"
@@ -60,7 +60,7 @@ tag = true
 commit_args = "-s"
 
 [[tool.bumpversion.files]]
-filename = "csp_chatbot/__init__.py"
+filename = "csp_benchmark/__init__.py"
 search = '__version__ = "{current_version}"'
 replace = '__version__ = "{new_version}"'
 
@@ -79,7 +79,7 @@ ignore = [
 [tool.coverage.run]
 branch = true
 omit = [
-    "csp_chatbot/tests/integration/",
+    "csp_benchmark/tests/integration/",
 ]
 [tool.coverage.report]
 exclude_also = [
@@ -97,16 +97,16 @@ artifacts = []
 src = "/"
 
 [tool.hatch.build.targets.sdist]
-packages = ["csp_chatbot"]
+packages = ["csp_benchmark"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["csp_chatbot"]
+packages = ["csp_benchmark"]
 
 [tool.hatch.build.targets.wheel.shared-data]
 
 [tool.pytest.ini_options]
 addopts = ["-vvv", "--junitxml=junit.xml"]
-testpaths = "csp_chatbot/tests"
+testpaths = "csp_benchmark/tests"
 
 [tool.ruff]
 line-length = 150
@@ -117,7 +117,7 @@ extend-select = ["I"]
 [tool.ruff.lint.isort]
 combine-as-imports = true
 default-section = "third-party"
-known-first-party = ["csp_chatbot"]
+known-first-party = ["csp_benchmark"]
 section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
 
 [tool.ruff.lint.per-file-ignores]

@@ -141,16 +141,16 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-csp_chatbot/extension
+csp_benchmark/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!csp_chatbot/extension/csp_chatbot.json
-!csp_chatbot/extension/install.json
-csp_chatbot/nbextension
-csp_chatbot/labextension
+!csp_benchmark/extension/csp_benchmark.json
+!csp_benchmark/extension/install.json
+csp_benchmark/nbextension
+csp_benchmark/labextension
 
 # Mac
 .DS_Store

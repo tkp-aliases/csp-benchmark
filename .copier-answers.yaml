@@ -6,7 +6,7 @@ add_extension: python
 add_wiki: false
 email: dev@1kbgz.com
 github: tkp-aliases
-project_description: Alias for csp-bot
-project_name: csp-chatbot
+project_description: Alias for csp-benchmarks
+project_name: csp-benchmark
 python_version_primary: '3.11'
-team: the csp-chatbot authors
+team: the csp-benchmark authors

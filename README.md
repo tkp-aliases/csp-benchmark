@@ -1,11 +1,11 @@
-# csp-chatbot
+# csp-benchmark
 
-Alias for csp-bot
+Alias for csp-benchmarks
 
-[![Build Status](https://github.com/tkp-aliases/csp-chatbot/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/tkp-aliases/csp-chatbot/actions/workflows/build.yaml)
-[![codecov](https://codecov.io/gh/tkp-aliases/csp-chatbot/branch/main/graph/badge.svg)](https://codecov.io/gh/tkp-aliases/csp-chatbot)
-[![License](https://img.shields.io/github/license/tkp-aliases/csp-chatbot)](https://github.com/tkp-aliases/csp-chatbot)
-[![PyPI](https://img.shields.io/pypi/v/csp-chatbot.svg)](https://pypi.python.org/pypi/csp-chatbot)
+[![Build Status](https://github.com/tkp-aliases/csp-benchmark/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/tkp-aliases/csp-benchmark/actions/workflows/build.yaml)
+[![codecov](https://codecov.io/gh/tkp-aliases/csp-benchmark/branch/main/graph/badge.svg)](https://codecov.io/gh/tkp-aliases/csp-benchmark)
+[![License](https://img.shields.io/github/license/tkp-aliases/csp-benchmark)](https://github.com/tkp-aliases/csp-benchmark)
+[![PyPI](https://img.shields.io/pypi/v/csp-benchmark.svg)](https://pypi.python.org/pypi/csp-benchmark)
 
 ## Overview
 
