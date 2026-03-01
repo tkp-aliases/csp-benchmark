@@ -141,14 +141,12 @@ js/node_modules
 js/test-results
 js/playwright-report
 js/*.tgz
-csp_benchmark/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
 Untitled*.ipynb
-!csp_benchmark/extension/csp_benchmark.json
-!csp_benchmark/extension/install.json
+csp_benchmark/extension
 csp_benchmark/nbextension
 csp_benchmark/labextension
 
@@ -157,3 +155,7 @@ csp_benchmark/labextension
 
 # Rust
 target
+
+# Hydra
+outputs/
+multirun/
