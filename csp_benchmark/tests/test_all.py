@@ -1,4 +1,4 @@
-from csp_benchmark import *  # noqa
+from csp_benchmark import *
 
 
 def test_all():
